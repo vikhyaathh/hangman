@@ -1,0 +1,98 @@
+{
+    "Technology": [
+        "keyboard", "monitor", "processor", "bluetooth", "smartphone",
+        "laptop", "charger", "speaker", "headphones", "microphone",
+        "camera", "router", "server", "printer", "scanner",
+        "battery", "calculator", "television", "satellite", "antenna",
+        "transistor", "capacitor", "semiconductor", "motherboard", "harddisk",
+        "pendrive", "projector", "smartwatch", "earphones", "touchscreen",
+        "internet", "network", "software", "hardware", "database",
+        "algorithm", "compiler", "browser", "firewall", "bandwidth",
+        "ethernet", "wireless", "infrared", "processor", "graphics",
+        "joystick", "webcam", "modem", "cursor", "pixel"
+    ],
+    "Science": [
+        "gravity", "neutron", "telescope", "asteroid", "volcano",
+        "electron", "proton", "magnet", "rainbow", "thunder",
+        "lightning", "hurricane", "earthquake", "tsunami", "glacier",
+        "atmosphere", "radiation", "particle", "nucleus", "comet",
+        "meteor", "planet", "galaxy", "nebula", "supernova",
+        "diamond", "crystal", "element", "compound", "mineral",
+        "oxygen", "hydrogen", "nitrogen", "carbon", "calcium",
+        "chromosome", "organism", "bacteria", "virus", "antibiotic",
+        "photon", "quantum", "isotope", "molecule", "atom",
+        "fossil", "evolution", "ecosystem", "biodiversity", "thermodynamics"
+    ],
+    "Countries": [
+        "india", "brazil", "canada", "germany", "australia",
+        "france", "japan", "china", "russia", "mexico",
+        "italy", "spain", "argentina", "egypt", "nigeria",
+        "kenya", "turkey", "sweden", "norway", "finland",
+        "portugal", "austria", "belgium", "denmark", "greece",
+        "poland", "ukraine", "vietnam", "thailand", "malaysia",
+        "indonesia", "pakistan", "bangladesh", "srilanka", "nepal",
+        "singapore", "newzealand", "southafrica", "morocco", "ethiopia",
+        "colombia", "venezuela", "peru", "chile", "ecuador",
+        "hungary", "romania", "croatia", "slovakia", "slovenia"
+    ],
+    "Medical": [
+        "fever", "fracture", "insulin", "vaccine", "antibiotics",
+        "surgery", "bandage", "capsule", "tablet", "injection",
+        "hospital", "doctor", "patient", "disease", "infection",
+        "stethoscope", "thermometer", "heartbeat", "skeleton", "muscle",
+        "kidney", "stomach", "liver", "lungs", "brain",
+        "blood", "oxygen", "calcium", "protein", "vitamin",
+        "diabetes", "asthma", "malaria", "typhoid", "cholera",
+        "cancer", "tumour", "allergy", "migraine", "arthritis",
+        "anaemia", "jaundice", "pneumonia", "bronchitis", "meningitis",
+        "cataract", "glaucoma", "appendix", "gallstone", "hernia"
+    ],
+    "Arts": [
+        "painting", "sculpture", "portrait", "canvas", "gallery",
+        "museum", "sketch", "drawing", "watercolor", "charcoal",
+        "pottery", "mosaic", "mural", "fresco", "tapestry",
+        "origami", "calligraphy", "graffiti", "cartoon", "animation",
+        "theatre", "ballet", "opera", "cinema", "photography",
+        "architecture", "design", "fashion", "jewellery", "crafts",
+        "symphony", "orchestra", "sonata", "concerto", "manuscript",
+        "literature", "poetry", "novel", "biography", "mythology",
+        "comedy", "tragedy", "satire", "folklore", "epic",
+        "figurine", "collage", "lithograph", "etching", "engraving"
+    ],
+    "Animals": [
+        "elephant", "penguin", "cheetah", "dolphin", "crocodile",
+        "giraffe", "kangaroo", "flamingo", "chimpanzee", "gorilla",
+        "leopard", "rhinoceros", "hippopotamus", "orangutan", "peacock",
+        "octopus", "jellyfish", "seahorse", "starfish", "lobster",
+        "butterfly", "dragonfly", "grasshopper", "scorpion", "tarantula",
+        "eagle", "parrot", "ostrich", "albatross", "pelican",
+        "wolverine", "armadillo", "platypus", "chameleon", "iguana",
+        "piranha", "barracuda", "swordfish", "stingray", "woodpecker",
+        "chimpanzee", "baboon", "mandrill", "meerkat", "mongoose",
+        "hedgehog", "porcupine", "capybara", "kingfisher", "anteater"
+    ],
+    "Sports": [
+        "cricket", "football", "basketball", "badminton", "swimming",
+        "tennis", "volleyball", "baseball", "hockey", "rugby",
+        "boxing", "wrestling", "gymnastics", "cycling", "archery",
+        "marathon", "sprinting", "weightlifting", "skateboarding", "surfing",
+        "skiing", "snowboarding", "rowing", "kayaking", "fencing",
+        "handball", "squash", "polo", "golf", "billiards",
+        "taekwondo", "karate", "judo", "aikido", "kickboxing",
+        "triathlon", "pentathlon", "decathlon", "heptathlon", "steeplechase",
+        "bobsled", "luge", "curling", "biathlon", "skeleton",
+        "lacrosse", "netball", "softball", "kabaddi", "kho"
+    ],
+    "Food": [
+        "pizza", "biryani", "sushi", "burger", "lasagna",
+        "pasta", "tacos", "ramen", "paella", "moussaka",
+        "croissant", "waffle", "pancake", "dumpling", "kebab",
+        "samosa", "hummus", "falafel", "risotto", "tiramisu",
+        "cheesecake", "brownie", "macaroon", "churros", "gelato",
+        "shawarma", "poutine", "schnitzel", "tempura", "satay",
+        "gyoza", "baklava", "fries", "goulash", "paella",
+        "enchilada", "burrito", "quesadilla", "guacamole", "nachos",
+        "carbonara", "bruschetta", "sandwich", "antipasto", "soup",
+        "noodles", "bibimbap", "kimchi", "tandoori", "dosa"
+    ]
+}

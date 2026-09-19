@@ -1,0 +1,19 @@
+
+*{box-sizing:border-box}body{margin:0;background:#0b0d10;color:#f5f5f5;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+body:before{content:"";position:fixed;inset:0;background:radial-gradient(circle at 20% 10%,#20252d 0,transparent 35%),radial-gradient(circle at 80% 90%,#171b22 0,transparent 35%);pointer-events:none}
+.shell{position:relative;max-width:960px;margin:auto;padding:56px 24px 70px}
+header{display:flex;justify-content:space-between;gap:24px;align-items:flex-start;margin-bottom:34px}
+.eyebrow,.label{font-size:11px;letter-spacing:.16em;color:#8e98a7;font-weight:700}.eyebrow{margin:0 0 10px}
+h1{font-size:52px;line-height:1;margin:0;font-weight:850;letter-spacing:-.04em}h1 span{color:#ff8a3d}
+.sub{color:#aab2bf;margin-top:14px;font-size:16px}.badge{border:1px solid #303741;border-radius:999px;padding:9px 13px;color:#b9c1cc;font-size:12px}
+.panel{background:rgba(20,23,28,.9);border:1px solid #2b3038;border-radius:22px;padding:28px;box-shadow:0 18px 60px rgba(0,0,0,.25)}
+h2{margin-top:0;font-size:22px}.categories{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:20px 0 24px}
+.category{padding:15px;border:1px solid #333a45;background:#15191f;border-radius:13px;color:#dfe4ea;cursor:pointer}.category.active{border-color:#ff8a3d;background:#251a13;color:#fff}
+button{border:0;border-radius:12px;padding:12px 17px;font-weight:750;cursor:pointer;transition:.15s}.primary{background:#ff8a3d;color:#111}.primary:hover{transform:translateY(-1px);filter:brightness(1.05)}
+.secondary{background:#242a32;color:#eef2f6;border:1px solid #363d47}.danger{background:#1b1f25;color:#ff9b9b;border:1px solid #443035}
+.hidden{display:none}.topbar{display:flex;justify-content:space-between;margin-bottom:14px}.topbar strong{display:block;margin-top:5px}
+.board{text-align:center}.word{font-size:38px;letter-spacing:.18em;font-weight:850;min-height:54px;margin:18px 0}.board p{color:#9fa8b5}
+.ai-box{margin:26px auto;max-width:600px;padding:18px;border:1px dashed #3a424d;border-radius:15px;display:flex;align-items:center;justify-content:space-between;gap:16px;text-align:left}.ai-box strong{display:block;font-size:24px;margin-top:4px;color:#ff9a55}
+.letters{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:25px}.letter{width:42px;height:42px;padding:0;background:#191e25;color:#dfe4ea;border:1px solid #303743}.letter:disabled{opacity:.3;cursor:not-allowed}
+.actions{display:flex;gap:10px;justify-content:center;margin-top:16px}
+@media(max-width:600px){.shell{padding:34px 16px}h1{font-size:40px}header{display:block}.badge{display:inline-block;margin-top:18px}.ai-box{display:block;text-align:center}.ai-box button{margin-top:12px}.word{font-size:28px}}

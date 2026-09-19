@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hangman AI</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div>
+        <p class="eyebrow">AI GAME APPLICATION</p>
+        <h1>Hangman <span>AI</span></h1>
+        <p class="sub">Guess the word. Let the AI help you choose smarter letters.</p>
+      </div>
+      <div class="badge">Vercel Ready</div>
+    </header>
+
+    <section class="panel setup" id="setup">
+      <h2>Choose a category</h2>
+      <div class="categories" id="categories"></div>
+      <button class="primary" id="startBtn">Start Game</button>
+    </section>
+
+    <section class="game hidden" id="game">
+      <div class="topbar">
+        <div><span class="label">CATEGORY</span><strong id="categoryLabel"></strong></div>
+        <div><span class="label">LIVES</span><strong id="lives">6</strong></div>
+      </div>
+
+      <div class="panel board">
+        <div class="word" id="word"></div>
+        <p id="message">Choose a letter.</p>
+        <div class="ai-box">
+          <div>
+            <span class="label">AI SUGGESTION</span>
+            <strong id="aiSuggestion">—</strong>
+          </div>
+          <button class="secondary" id="aiBtn">Use AI Guess</button>
+        </div>
+        <div class="letters" id="letters"></div>
+      </div>
+
+      <div class="actions">
+        <button class="secondary" id="newBtn">New Game</button>
+        <button class="danger" id="restartBtn">Change Category</button>
+      </div>
+    </section>
+  </main>
+  <script src="/script.js"></script>
+</body>
+</html>
